@@ -1,5 +1,7 @@
 # Firebase Functions Cold Start Bug Demo
 
+https://issuetracker.google.com/issues/158014637
+
 The purpose of this project is to document excessive delay on cold-starting firebase functions.
 
 ## Conclusions
