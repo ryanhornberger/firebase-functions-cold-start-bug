@@ -17,6 +17,11 @@ Calls to a warmed up function are much faster
 Delays of this length are extremely disruptive to the user experience of various applications and our
 engineers are regularly writing work-arounds for critical path UI steps to reduce user impact.
 
+## Expected Results
+
+Cold starting functions should be able to achieve millisecond initialization speed even when
+activating firestore libraries during a cold start. 
+
 ## Raw Results
 
 FIRST CALL
