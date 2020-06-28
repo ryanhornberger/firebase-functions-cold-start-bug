@@ -1,0 +1,24 @@
+# osx
+.DS_Store
+
+# firebase
+.firebase
+**/functions/lib/**/**
+.runtimeconfig.json
+.runtimeconfig.json-prod
+
+# nextjs
+.next
+*_nextjs
+
+# nodejs
+node_modules
+
+# config files
+config.yaml
+
+# logs
+*.log
+
+# react-native
+.expo
