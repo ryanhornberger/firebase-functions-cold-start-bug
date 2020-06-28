@@ -1,6 +1,8 @@
 {
   "name": "functions",
   "scripts": {
+    "demo-prod": "node_modules/.bin/ts-node runTest.ts",
+    "demo-local": "node_modules/.bin/ts-node runTest.ts testlocal",
     "lint": "tslint --project tsconfig.json",
     "build": "tsc",
     "serve": "npm run build && firebase emulators:start --only functions",
@@ -10,7 +12,7 @@
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "8"
+    "node": "10"
   },
   "main": "lib/index.js",
   "dependencies": {
@@ -19,9 +21,10 @@
     "firebase-functions": "^3.6.1"
   },
   "devDependencies": {
+    "firebase-functions-test": "^0.2.0",
+    "ts-node": "^8.10.2",
     "tslint": "^5.12.0",
-    "typescript": "^3.8.0",
-    "firebase-functions-test": "^0.2.0"
+    "typescript": "^3.8.0"
   },
   "private": true
 }

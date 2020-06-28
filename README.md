@@ -135,7 +135,11 @@ SECOND CALL
     git clone https://github.com/ryanhornberger/firebase-functions-cold-start-bug.git
     cd firebase-functions-cold-start-bug/functions
     npm install
-    ts-node runTest testlocal
+    npm run serve
+
+From a second terminal
+
+    npm run demo-local
 
 ## How To Execute Against Deployed Servers
 
@@ -144,4 +148,4 @@ NOTE this project is currently hard coded for a public firebase project on the f
     git clone https://github.com/ryanhornberger/firebase-functions-cold-start-bug.git
     cd firebase-functions-cold-start-bug/functions
     npm install
-    ts-node runTest
+    npm run demo-prod

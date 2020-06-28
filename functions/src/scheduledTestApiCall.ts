@@ -36,5 +36,5 @@ export default async (context: any) => {
         results.push(await timedApiCall('post','testHttpsRequestEmpty', context))
         results.push(await timedApiCall('post','testHttpsRequestWithFirestore', context))
     }
-    console.log(results)
+    console.log(JSON.stringify(results, null, 2))
 }
