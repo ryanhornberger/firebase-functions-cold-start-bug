@@ -12,8 +12,8 @@ The purpose of this project is to document excessive delay on cold-starting fire
 
 The raw data from this test shows that excessive delays are associated with two specific moments:
 
-* the instantiation of the firestore library (3194ms)
-* the first api call using the firestore library (1817ms)
+* the instantiation of the firestore library (2998ms)
+* the first api call using the firestore library (2306ms)
 
 Calls to a warmed up function are much faster
 
@@ -56,6 +56,14 @@ From a second terminal
 ## Raw Results
 
 FIRST CALL
+//////////
+
+Please take note of the following:
+
+    Firestore Library Instantiation: 2998 ms
+    Firestore First Query: 2306 ms
+
+////
 
     [
       {
@@ -106,7 +114,16 @@ FIRST CALL
       }
     ]
 
+////
+
 SECOND CALL
+
+Now note the library is instantiated and ready to go:
+
+    Firestore Library Instantiation: 0ms ("preloaded")
+    Firestore First Query: 222 ms
+
+////
 
     [
       {
@@ -156,3 +173,5 @@ SECOND CALL
         }
       }
     ]
+
+////
