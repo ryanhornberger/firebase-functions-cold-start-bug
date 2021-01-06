@@ -32,47 +32,47 @@ FIRST CALL
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsCallEmpty",
         "calledFnName": "testHttpsCallEmpty",
-        "callId": "1593312994839.1593312994839.testHttpsCallEmpty",
+        "callId": "1609951547493.1609951547495.testHttpsCallEmpty",
         "status": 200,
         "timers": {
-          "functionTotalDeltaTs": 0,
-          "clientDeltaTs": 436
+          "functionTotalDeltaTs": 2,
+          "clientDeltaTs": 659
         }
       },
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsCallWithFirestore",
         "calledFnName": "testHttpsCallWithFirestore",
-        "callId": "1593312995336.1593313000351.testHttpsCallWithFirestore",
+        "callId": "1609951547851.1609951553159.testHttpsCallWithFirestore",
         "status": 200,
         "timers": {
           "firebaseAdminInstanceDeltaTs": 4,
-          "firestoreInstanceDeltaTs": 3194,
-          "firestoreQueryDeltaTs": 1817,
-          "functionTotalDeltaTs": 5015,
-          "clientDeltaTs": 5429
+          "firestoreInstanceDeltaTs": 2998,
+          "firestoreQueryDeltaTs": 2306,
+          "functionTotalDeltaTs": 5308,
+          "clientDeltaTs": 5668
         }
       },
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsRequestEmpty",
         "calledFnName": "testHttpsRequestEmpty",
-        "callId": "1593313000707.1593313000707.testHttpsRequestEmpty",
+        "callId": "1609951553569.1609951553571.testHttpsRequestEmpty",
         "status": 200,
         "timers": {
-          "functionTotalDeltaTs": 0,
-          "clientDeltaTs": 354
+          "functionTotalDeltaTs": 2,
+          "clientDeltaTs": 486
         }
       },
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsRequestWithFirestore",
         "calledFnName": "testHttpsRequestWithFirestore",
-        "callId": "1593313000981.1593313006076.testHttpsRequestWithFirestore",
+        "callId": "1609951553984.1609951558490.testHttpsRequestWithFirestore",
         "status": 200,
         "timers": {
-          "firebaseAdminInstanceDeltaTs": 81,
-          "firestoreInstanceDeltaTs": 3212,
-          "firestoreQueryDeltaTs": 1802,
-          "functionTotalDeltaTs": 5095,
-          "clientDeltaTs": 5372
+          "firebaseAdminInstanceDeltaTs": 6,
+          "firestoreInstanceDeltaTs": 2713,
+          "firestoreQueryDeltaTs": 1787,
+          "functionTotalDeltaTs": 4506,
+          "clientDeltaTs": 4840
         }
       }
     ]
@@ -83,47 +83,47 @@ SECOND CALL
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsCallEmpty",
         "calledFnName": "testHttpsCallEmpty",
-        "callId": "1593313154033.1593313154034.testHttpsCallEmpty",
+        "callId": "1609951574990.1609951574990.testHttpsCallEmpty",
         "status": 200,
         "timers": {
-          "functionTotalDeltaTs": 1,
-          "clientDeltaTs": 261
+          "functionTotalDeltaTs": 0,
+          "clientDeltaTs": 410
         }
       },
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsCallWithFirestore",
         "calledFnName": "testHttpsCallWithFirestore",
-        "callId": "1593313154258.1593313154321.testHttpsCallWithFirestore",
+        "callId": "1609951575165.1609951575387.testHttpsCallWithFirestore",
         "status": 200,
         "timers": {
           "firebaseAdminInstanceDeltaTs": "preloaded",
           "firestoreInstanceDeltaTs": "preloaded",
-          "firestoreQueryDeltaTs": 63,
-          "functionTotalDeltaTs": 63,
-          "clientDeltaTs": 286
+          "firestoreQueryDeltaTs": 222,
+          "functionTotalDeltaTs": 222,
+          "clientDeltaTs": 400
         }
       },
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsRequestEmpty",
         "calledFnName": "testHttpsRequestEmpty",
-        "callId": "1593313154504.1593313154504.testHttpsRequestEmpty",
+        "callId": "1609951575571.1609951575572.testHttpsRequestEmpty",
         "status": 200,
         "timers": {
-          "functionTotalDeltaTs": 0,
-          "clientDeltaTs": 181
+          "functionTotalDeltaTs": 1,
+          "clientDeltaTs": 176
         }
       },
       {
         "targetUrl": "https://us-central1-cinder-firebase-debug.cloudfunctions.net/testHttpsRequestWithFirestore",
         "calledFnName": "testHttpsRequestWithFirestore",
-        "callId": "1593313154649.1593313154701.testHttpsRequestWithFirestore",
+        "callId": "1609951575740.1609951575795.testHttpsRequestWithFirestore",
         "status": 200,
         "timers": {
           "firebaseAdminInstanceDeltaTs": "preloaded",
           "firestoreInstanceDeltaTs": "preloaded",
-          "firestoreQueryDeltaTs": 52,
-          "functionTotalDeltaTs": 52,
-          "clientDeltaTs": 197
+          "firestoreQueryDeltaTs": 55,
+          "functionTotalDeltaTs": 55,
+          "clientDeltaTs": 223
         }
       }
     ]
